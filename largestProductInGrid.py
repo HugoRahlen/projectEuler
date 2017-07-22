@@ -37,6 +37,10 @@ def cycle(grid):
                 dia = int(grid[i][j]) * int(grid[i+1][j+1]) * int(grid[i+2][j+2]) * int(grid[i+3][j+3])
                 if dia > biggest:
                     biggest = dia
+            if j > 2 and i < 16:
+                dia2 = int(grid[i][j]) * int(grid[i+1][j-1]) * int(grid[i+2][j-2]) * int(grid[i+3][j-3])
+                if dia2 > biggest:
+                    biggest = dia2
             print(biggest)
     print(biggest)
 
