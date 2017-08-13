@@ -43,7 +43,7 @@ def isprime_divisor(n): # never completed
             return False
     return True
 
-print(milli141(Number))
+print(biggestFactor(Number))
 '''
 for a in range(2, 100):
     if isprime(a):

@@ -1,2 +1,2 @@
 # projectEuler
-Trying to solve the project Euler problrems to learn Python
+Trying to solve the project Euler problems to learn Python
